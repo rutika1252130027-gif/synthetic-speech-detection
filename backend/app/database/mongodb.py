@@ -22,3 +22,4 @@ client = MongoClient(MONGODB_URL)
 
 # Connect to our database
 database = client[DATABASE_NAME]
+audio_analysis_collection = database["audio_analysis"]
